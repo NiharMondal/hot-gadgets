@@ -22,7 +22,7 @@
     color: #ff136f;
 }
 .button-bg{
-    background-image: linear-gradient(#181616, #312f2f);
+    background-image: linear-gradient(250deg, #a05353, #cf6767, #dd703d);
     color: #fff;
     border: none;
     padding: 9px 25px;
@@ -30,11 +30,7 @@
     cursor: pointer;
     
 }
-.bg-i{
-    align-items: center;
-    text-align: center;
-   justify-content: center;
-}
+
 button svg{
     margin-left: 10px;
 }
@@ -42,27 +38,33 @@ button svg{
     padding: 10px 30px;
     border-radius: 20px;
 }
-.cat1{
-    background-image: linear-gradient(70deg,#f86521 ,#e8eb32);
+h2{
+    margin-bottom: 30px;
 }
-.cat2{
-    background-image: linear-gradient(180deg, #cc7bcc, #663399);
-}
-.cat3{
-    background-image: linear-gradient(#00ffff, #1095ee);
-}
-.categories h1{
-    color: #fff;
-}
-.categories img{
-    width: 100px;
+span{
+    float: right;
+    font-size: 15px;
+    color: #da9234;
+    align-items: center;
 }
 .card{
     border: none;
-    box-shadow: 4px 4px 10px lightslategray;
+    box-shadow: 6px 6px 10px #c8cfd2;
 }
-#contact-us{
-    height: 200px;
+.categories{
+    margin: 20px;
+    border: none;
+}
+#bg-bt-sh{
+    box-shadow: 4px 4px 10px #c8cfd3;
+    margin: 10px 5px;
+    padding: 7px;
+}
+.span .mar{
+    height: 3px;
+    width: 30px;
+    background-color: chocolate;
+  
 }
 footer p{
     padding: 10px;
